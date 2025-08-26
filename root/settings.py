@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     # todo third party package
     'rest_framework',
     'drf_spectacular',
+    'payme',
 
 ]
 
