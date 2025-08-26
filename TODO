@@ -1,0 +1,21 @@
+1Autentifikatsiya va Role’lar
+
+JWT orqali login va registratsiya.
+Role: client, ishchi, admin.
+Admin boshqa foydalanuvchilarni ko‘ra olishi kerak va kuzatolishi kere.
+
+2 To‘lov tizimi (Payment API – karta bilan ishlash)
+client buyurtma yaratganda  xizmat narxi hisoblanadi.
+Fake payment integratsiya qilsin (masalan, Payme yoki Click ).
+To‘lov muvaffaqiyatli bo‘lsa → order.status = paid.
+To‘lov bekor bo‘lsa → order.status = canceled.
+
+3 WebSocket Real-time
+ishchiga’ga yangi buyurtma yaratilganda, real-time xabar borishi kerak (WebSocket orqali).
+Client’ga ham buyurtma qabul qilingani haqida xabar qaytishi kerak.
+
+4 Order History API
+Client  faqat o‘zining buyurtmalarini ko‘radi.
+Worker faqat unga mutaxasisligi jinsi boyicha   buyurtmalarni ko‘radi.
+Admin  barcha buyurtmalarni ko‘rishi mumkin.
+Deadline 24 soat
