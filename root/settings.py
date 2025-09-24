@@ -19,7 +19,6 @@ INSTALLED_APPS = [
     # todo third party package
     'rest_framework',
     'drf_spectacular',
-    'payme',
 
 ]
 
@@ -52,7 +51,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'root.wsgi.application'
-AUTH_USER_MODEL = 'apps.User'
 
 DATABASES = {
     'default': {
